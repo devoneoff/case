@@ -27,6 +27,9 @@ const Contact = () => {
 
                     <div className="contact-mobile">
                         <div className="contact-mobile-new">New! <i class='bx bxs-mobile'></i></div>
+                        <div className="contact-soon">
+                            <div>Soon</div>
+                        </div>
                         <div className="contact-mobile-overflow">
                             <div className="contact-info-text">
                                 <p>Now there is also a mobile application.</p>

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/case/static/css/main.9eaac4cf.css",
-    "main.js": "/case/static/js/main.3331b474.js",
+    "main.css": "/case/static/css/main.a06c0864.css",
+    "main.js": "/case/static/js/main.a0f2a8a0.js",
     "static/js/453.77d78df3.chunk.js": "/case/static/js/453.77d78df3.chunk.js",
     "static/media/material-symbols-rounded.woff2": "/case/static/media/material-symbols-rounded.a811b34764c81777d81d.woff2",
     "static/media/material-symbols-outlined.woff2": "/case/static/media/material-symbols-outlined.38dcfed25a412ee8f913.woff2",
@@ -11,12 +11,12 @@
     "static/media/slick.ttf": "/case/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/case/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/case/index.html",
-    "main.9eaac4cf.css.map": "/case/static/css/main.9eaac4cf.css.map",
-    "main.3331b474.js.map": "/case/static/js/main.3331b474.js.map",
+    "main.a06c0864.css.map": "/case/static/css/main.a06c0864.css.map",
+    "main.a0f2a8a0.js.map": "/case/static/js/main.a0f2a8a0.js.map",
     "453.77d78df3.chunk.js.map": "/case/static/js/453.77d78df3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9eaac4cf.css",
-    "static/js/main.3331b474.js"
+    "static/css/main.a06c0864.css",
+    "static/js/main.a0f2a8a0.js"
   ]
 }

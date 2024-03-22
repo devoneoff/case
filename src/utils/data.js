@@ -226,7 +226,7 @@ export const CASES = [
             },
             { 
                 case: "Game 2048", 
-                image: "./assets/images/projects/FrontendBackend/game2048.png",
+                image: "./assets/images/projects/FrontendBackend/Game2048.png",
                 technologies: [
                     { technology: "HTML5" },
                     { technology: "CSS3" },

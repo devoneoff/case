@@ -2,7 +2,9 @@
     border-radius: .65rem;
     border: 1.5px solid #6751b9;
     padding: 2.5rem;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: rgba(22, 17, 47, .398);
     backdrop-filter: blur(1rem);
     position: relative;
@@ -70,10 +72,10 @@
 }
 @media ( max-width: 500px ) {
     .skills-card {
-        padding: 1rem;
+        padding: 1.5rem;
     }
     .skills-card span {
-        font-size: .7rem;
+        font-size: .9rem;
     }
     .skill-icon {
         width: 2.2rem;
@@ -81,5 +83,10 @@
     }
     .skill-icon img {
         width: 1.2rem;
+    }
+}
+@media ( max-width: 379px ) {
+    .skills-card span {
+        font-size: .6rem;
     }
 }

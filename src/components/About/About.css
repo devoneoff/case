@@ -98,7 +98,7 @@
         width: 100%;
     }
     .about__img img {
-        width: 18rem;
+        width: 22rem;
     }
 }
 @media ( max-width: 950px ) {
@@ -113,6 +113,9 @@
 }
 @media ( max-width: 520px ) {
     .about__code {
+        width: 100%;
+    }
+    .about__img img {
         width: 100%;
     }
 }

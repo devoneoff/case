@@ -1,0 +1,80 @@
+.certificat-container {
+    margin: 4rem 2rem 6rem;
+    position: relative;
+}
+.certificat-container h5 {
+    font-size: 160px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    color: rgba(255, 255, 255, .1);
+}
+.certificat-content {
+    position: relative;
+}
+.arrow-right,
+.arrow-left {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6751b9;
+    border-radius: .65rem;
+    border: 1.5px solid #6751b9;
+    background: #130f2a;
+    position: absolute;
+    top: 45%;
+    z-index: 2;
+    cursor: pointer;
+}
+.arrow-right span,
+.arrow-left span {
+    font-size: 2rem;
+    font-weight: 500;
+}
+.arrow-left {
+    left: -2rem;
+}
+.arrow-right {
+    right: -2rem;
+}
+
+@media ( max-width: 1070px ) {
+    .certificat-container h5 {
+        font-size: 130px;
+    }
+}
+@media (max-width: 1025px) {
+    .arrow-left {
+        left: 0rem;
+    }
+    .arrow-right {
+        right: 0rem;
+    }
+}
+@media (max-width: 890px) {
+    .certificat-container h5 {
+        font-size: 100px;
+    }
+}
+@media (max-width: 768px) {
+    .certificat-container h5 {
+        font-size: 60px;
+    }
+    .arrow-left {
+        left: -1rem;
+    }
+    .arrow-right {
+        right: -1rem;
+    }
+
+}
+@media (max-width: 426px) {
+    .certificat-container {
+        margin: 4rem 0;
+    }
+    .certificat-container h5 {
+        font-size: 40px;
+    }
+}

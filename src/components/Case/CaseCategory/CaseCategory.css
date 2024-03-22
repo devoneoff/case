@@ -1,0 +1,35 @@
+.case-category {
+    border: 1px solid #7F69E0;
+    padding: 10px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color .5s ease;
+}
+.case-category span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.case-category:hover,
+.case-category.active {
+    background-color: #7F69E0;
+}
+@media ( max-width: 900px ) {
+    .case-category span {
+        font-size: 16px;
+    }
+}
+@media ( max-width: 769px ) {
+    .case-category span {
+        font-size: 14px;
+    }
+}
+@media ( max-width: 540px ) {
+    .case-category {
+        padding: 5px 15px;
+    }
+    .case-category span {
+        font-size: 12px;
+    }
+}

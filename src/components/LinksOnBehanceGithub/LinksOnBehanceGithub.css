@@ -1,0 +1,92 @@
+.links-container {
+    display: flex;
+    flex-direction: column;
+    padding: 150px 110px;
+    gap: 40px;
+}
+.links-about {
+    font-size: 26px;
+}
+.links-behance-github,
+.links-behance-github-links {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.links-behance-github-text {
+    font-size: 16px;
+}
+.links-behance-github-links a {
+    font-size: .9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+    padding: .6rem 2rem;
+    border: 1px solid rgba(169, 147, 254, 0);
+    outline: 1.5px solid transparent;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all .3s ease;
+    text-decoration: none;
+}
+@media (hover :hover) {
+    .links-behance-github-links a:hover {
+        border: 1px solid #a993fe;
+        background: transparent;
+    }
+}
+@media (hover :none) {
+    .btn:active {
+        border: 1px solid #a993fe;
+        background: transparent;
+    }
+}
+
+@media ( max-width: 1025px ) {
+    .links-about {
+        font-size: 24px;
+    }
+    .links-container {
+        padding: 150px 20px;
+    }
+    .links-behance-github,
+    .links-behance-github-links {
+        gap: 35px;
+    }
+    .links-behance-github-text {
+        font-size: 14px;
+    }
+}
+@media ( max-width: 900px ) {
+    .links-behance-github {
+        flex-direction: column;
+    }
+}
+@media ( max-width: 679px ) {
+    .links-about {
+        font-size: 22px;
+    }
+}
+@media ( max-width: 540px ) {
+    .links-about {
+        font-size: 20px;
+    }
+    .links-container {
+        padding: 150px 0;
+    }
+}
+@media ( max-width: 450px ) {
+    .links-about {
+        font-size: 18px;
+    }
+    .links-behance-github-links {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .links-behance-github-links a {
+        width: 100%;
+    }
+}

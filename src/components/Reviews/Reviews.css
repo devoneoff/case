@@ -1,0 +1,15 @@
+.reviews-container {
+    position: relative;
+    margin: 4rem 0;
+}
+.reviews-container h4 {
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+}
+span {
+    color: #A993FE;
+}
+.reviews-content {
+    margin: 4rem 0;
+}

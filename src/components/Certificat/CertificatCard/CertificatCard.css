@@ -1,0 +1,17 @@
+.certif-card {
+    background: #130f2a;
+    border-radius: .65rem;
+    border: 1.5px solid #6751b9;
+    margin: 0 1rem;
+    overflow: hidden;
+}
+.certif-card img {
+    width: 100%;
+    pointer-events: none;
+}
+
+@media (max-width: 768px) {
+    .certif-card {
+        margin: 0;
+    }
+}
